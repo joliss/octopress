@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "18-Hour Hackathon: Making a CoffeeScript Solitaire"
-date: 2011-07-08 21:38
+date: 2011-11-07 21:38
 comments: true
 categories:
 ---
