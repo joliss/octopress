@@ -5,7 +5,7 @@ aside.sidebar {
   overflow: hidden;
   color: $sidebar-color;
   text-shadow: lighten($sidebar-bg, 8) 0 1px;
-  a { @extend .force-wrap; }
+  a { word-wrap: break-word; }
   section {
     @extend .sans;
     font-size: .8em;
