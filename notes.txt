@@ -1,0 +1,1 @@
+convert solitr-screenshot.png -channel alpha -fx '((248/255) == r && (248/255) == g && (248/255) == b) ? 0 : 1' -resize 260x solitr-screenshot-260px.png
