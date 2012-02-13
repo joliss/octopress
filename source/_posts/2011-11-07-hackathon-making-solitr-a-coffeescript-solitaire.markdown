@@ -4,6 +4,7 @@ title: "18-Hour Hackathon: Making a CoffeeScript Solitaire"
 date: 2011-11-07 21:38
 comments: true
 categories:
+atom_id: http://opinionated-programmer.com/?p=930
 ---
 
 The making of [solitr.com][] (source at [github.com/joliss/solitr][]), a
@@ -11,7 +12,7 @@ CoffeeScript solitaire, in one 18-hour hackathon:
 
 ## Hackathon Diary
 
-9:15 am: S*hreeeek-shreeek-shreeeeeeeek!*
+9:15 am: *Shreeeek-shreeek-shreeeeeeeek!*
 *Get-up-get-dressed-have-breakfast-coffee-go-go-go.*
 
 9:50 am: Sit down at laptop. What do I name my project? What CSS syntax
