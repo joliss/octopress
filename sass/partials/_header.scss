@@ -3,6 +3,7 @@ body > header {
   h1 {
     display: inline-block;
     margin: 0;
+    color: mix($title_color, $header-bg, 70%);
     a, a:visited, a:hover {
       color: $title_color;
       text-decoration: none;
