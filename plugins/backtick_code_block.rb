@@ -5,12 +5,13 @@ module BacktickCodeBlock
   AllOptions = /([^\s]+)\s+(.+?)(https?:\/\/\S+)\s*(.+)?/i
   LangCaption = /([^\s]+)\s*(.+)?/i
   def render_code_block(input)
-    @options = nil
-    @caption = nil
-    @lang = nil
-    @url = nil
-    @title = nil
     input.gsub(/^`{3} *([^\n]+)?\n(.+?)\n`{3}/m) do
+      @options = nil
+      @caption = nil
+      @lang = nil
+      @url = nil
+      @title = nil
+
       @options = $1 || ''
       str = $2
 
